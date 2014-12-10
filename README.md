@@ -1,9 +1,8 @@
 #FOAM - A WebGL toolkit
 
-Foam is a condensed collection of tools for building procedural graphics in WebGL.   
-It tries to be as 'low'-level as possible (in a browser/js sense) whilst handling and abstracting repetitive tasks such as scene, animation loop and user input setup. Foam provides thin abstractions for commonly used scene-related objects such as cameras, textures, basic geometry, light and material representations as well as WebGL objects like shader programs, vbos, fbos and others.
+Foam is a condensed collection of tools for building procedural graphics in WebGL. It tries to be as 'low'-level as possible (in a browser/js sense) whilst handling and abstracting repetitive tasks such as scene, animation loop and user input setup. Foam provides thin abstractions for commonly used scene-related objects such as cameras, textures, basic geometry, light and material representations as well as WebGL objects like shader programs, vbos, fbos and others.
 
-*Foam requires a sound knowledge of WebGL and shader development.* If you don't want to deal with shaders and just quickly display your mesh using some predefined material and lighting, this might not be the right tool for you.
+*Foam requires strong knowledge in WebGL and shader development.* If you don't want to deal with shaders and just quickly display your mesh using some predefined material and lighting, this might not be the right tool for you.
 
 
 [Advantages & Disadvantages](#advantages--disadvantages) – [Goals](#goals) – [Structure](#structure) – [Install](#install) - [Usage](#usage) – [Templates](#templates) – [Build](#build) – [Documentation](#documentation) – [Dependencies](#dependencies) – [License](#license)
