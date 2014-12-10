@@ -14,12 +14,12 @@ Foam is a condensed collection of tools for building procedural graphics in WebG
 ##Advantages & Disadvantages 
 
 - Foam has a very thin abstraction layer, which allows you to **safely access any 'bare-bone' WebGL functionality** you need (except shader program binding) without breaking any Foam internal states.
-- Foam **focuses on writing shaders**. So compared to other libraries or frameworks you won't find any prepackaged materials, complex lighting and shadowing setups or post-processing filters. Thats your job. – But there a tiny shader templates to get you started.
-- Although you can load external models, Foam mainly **focuses on programmatically generating geometry**.
+- Foam **focuses on writing shaders**. Unlike other libraries or frameworks you won't find any prepackaged materials, complex lighting and shadowing setups or post-processing filters. That's your job. – But there are small shader templates to help you get you started.
+- Although you can load external models, Foam mainly **focuses on generating geometry programmatically**.
 - Loading every resource asynchronously on scene init can be quite cumbersome, especially when dealing with multiple glsl files, texture images and additional resources. Foam uses a **resource bundle loader** which you can feed with a list of resources. It will load all of them, report errors and after completely processing the list init your program with a resource dictionary. This is not mandatory, you can still load and process every single resource on its own.
 - Foam offers **wrappers around WebGL base objects** such as programs, vertex and index buffers, framebuffers  and textures.
 - Foam reintroduces the **fixed pipeline matrix stack model**. Welcome back: glTranslate, glScale, glRotate, glMultMatrix, glPushMatrix and glPopMatrix as well as some additional matrix transformation methods.
-- Sometimes its necessary to just quickly test a visual idea. Therefore Foam offers an optional **'immediate mode' style**, which allows drawing mesh data and 2d & 3d primitives without previously allocating any object. 
+- It is sometimes necessary to quickly test a visual idea. Therefore, Foam offers an optional **'immediate mode' style**, which allows drawing mesh data and 2d & 3d primitives without previously allocating any object. 
 - Solid **text rendering of generated BitmapFonts** using the wonderful opentype.js – An OpenType and TrueType font parser.
 - Foam uses the **common.js module pattern** via [browserify](http://browserify.org/)
 
