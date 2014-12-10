@@ -29,7 +29,7 @@ Foam is a condensed collection of tools for building procedural graphics in WebG
 
 Foam is no magical all-in-one tool like Three.js (which is wonderful). It doesn't have additional render targets like 2d canvas, SVG or CSS3D or uses them as fallbacks. 
 
-Foam doesnt provide any builtin optimisation of the render pipeline, no auto checking your cameras view frustum, auto lod, ordering your objects in a scene graph or providing giant uber shaders.
+Foam doesn't provide any built-in optimisation of the render pipeline, no auto checking your camera view frustum, auto lod, ordering your objects in a scene graph or providing giant uber shaders.
 
 Foam mainly focuses on generating procedural graphics – this often requires very specific and individual approaches depending on your design goals. When moving calculations or geometry modifications to the gpu, Foam provides an elegant interface between your shaders and js application.  
 
