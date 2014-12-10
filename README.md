@@ -38,7 +38,7 @@ Foam mainly focuses on generating procedural graphics – this often requires ve
 ##Goals
 
 Foam tries to be as generic and structurally open as possible by not forcing you to adopt a certain way of building your scenes or managing the objects within it.
-You may choose to use the builtin geometry or light representations or simply drop them and just use Foam for setting up your app and resources and write everything with raw WebGL calls. If you need a scene graph, build it on top. – This **flexibility is a core idea** of Foam. – Therefore *Foam will never compete with WebGL frameworks* like Three.js or others.
+You may choose to use the built-in geometry or light representations or simply drop them and just use Foam for setting up your app and resources and write everything with raw WebGL calls. If you need a scene graph, build it on top. – This **flexibility is a core idea** of Foam. – Therefore *Foam will never compete with WebGL frameworks* like Three.js or others.
 
 Additional functionalities may be added with extensions.
 
