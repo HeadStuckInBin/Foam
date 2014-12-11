@@ -47,11 +47,11 @@ Additional functionalities may be added with extensions.
 ##Structure
 
 - ***App core*** – Canvas setup, user input, resource bundle handling and update loop setup
-- ***Graphics*** – Offers aforementioned cameras (perspective, orthographic, frustum and arcball rotation), generic material & light representations and geometry models which can be extended with custom attributes and uniforms, as well as text rendering, 'immediate mode' drawing via *glDraw*, and matrix stack manipulation via *glTrans*. Basic access to drawing methods, transformations and raw WebGL can be gained by inheriting from *glObject*.
+- ***Graphics*** – Offers aforementioned cameras (perspective, orthographic, frustum and arcball rotation), generic material & light representations and geometric models which can be extended with custom attributes and uniforms, as well as text rendering, 'immediate mode' drawing via *glDraw*, and matrix stack manipulation via *glTrans*. Basic access to drawing methods, transformations and raw WebGL can be gained by inheriting from *glObject*.
 - ***WebGL objects*** – Shader program, vbo, fbo, textures
 - **Geometry** – Axis aligned bounding boxes, planes, rectangles, to be extended
 - ***Math*** – 2d & 3d vectors, matrices, quaternions and utilities
-- ***Extras*** – Color representation, Filewatcher, WebWorker console
+- ***Extras*** – Colour representation, Filewatcher, WebWorker console
 
 
 
@@ -71,7 +71,7 @@ Context html (browserified standalone)
 
 ##Usage
 
-A typical project structure is as follows:
+Typical project structure:
 
 
     project/
